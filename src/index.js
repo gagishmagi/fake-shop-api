@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import faker from 'faker'
+
+
+console.log(faker.finance.amount())
+
 ReactDOM.render(
   <React.StrictMode>
     <App />

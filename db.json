@@ -1,0 +1,113 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "price": 109.95,
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+      "category": "men's clothing",
+      "image": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+      "rating": { "rate": 3.9, "count": 120 },
+      "catId": 1,
+      "onsale": false,
+      "new": true
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "date": "2020-03-02T00:00:02.000Z",
+      "products": [
+        { "productId": 1, "quantity": 4 },
+        { "productId": 2, "quantity": 1 },
+        { "productId": 3, "quantity": 6 }
+      ]
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "date": "2020-01-02T00:00:02.000Z",
+      "products": [
+        { "productId": 2, "quantity": 4 },
+        { "productId": 1, "quantity": 10 },
+        { "productId": 5, "quantity": 2 }
+      ]
+    }
+  ],
+  "orders": [
+    {
+        "id": 1,
+        "cartID": 1
+        
+    },
+    {
+        "id": 2,
+        "cartID": 2
+        
+    }
+  ],
+  "shipping": [],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+      "description": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday"
+    }
+  ],
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+      "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+    }
+  ],
+  "comments": [
+    {
+      "postId": 1,
+      "id": 1,
+      "name": "id labore ex et quam laborum",
+      "email": "Eliseo@gardner.biz",
+      "body": "laudantium enim quasi est quidem magnam voluptate ipsam eos\ntempora quo necessitatibus\ndolor quam autem quasi\nreiciendis et nam sapiente accusantium"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "address": {
+        "geolocation": {
+          "lat": "-37.3159",
+          "long": "81.1496"
+        },
+        "city": "kilcoole",
+        "street": "new road",
+        "number": 7682,
+        "zipcode": "12926-3874"
+      },
+      "email": "john@gmail.com",
+      "username": "johnd",
+      "password": "m38rmF$",
+      "name": { "firstname": "john", "lastname": "doe" },
+      "phone": "1-570-236-7033"
+    },
+    {
+        "id": 2,
+        "address": {
+          "geolocation": {
+            "lat": "-37.3159",
+            "long": "81.1496"
+          },
+          "city": "kilcoole",
+          "street": "new road",
+          "number": 7682,
+          "zipcode": "12926-3874"
+        },
+        "email": "john@gmail.com",
+        "username": "johnd",
+        "password": "m38rmF$",
+        "name": { "firstname": "john", "lastname": "bamba bisli" },
+        "phone": "1-570-236-7033"
+      }
+  ]
+}
